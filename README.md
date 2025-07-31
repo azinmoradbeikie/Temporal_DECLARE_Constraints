@@ -11,7 +11,19 @@ For each constraint within a community, we analyse the distribution of inter-act
 - **Community Comparison**: Compare communities using Wasserstein distance
 - **Visualization**: Generate heatmaps and explanatory visualizations
 
+## Outputs
 
+The analysis generates several outputs in the results/ directory:
+
+1. all_community_results.csv  (DECLARE constraints per community)
+
+2. ranked_constraints_v2.csv  (TF-IDF ranked constraints)
+
+3. all_constraints_with_time.csv  (Temporal analysis results)
+
+4. heatmaps/  (Visualization of community differences)
+
+5. community_comparisons/  (Detailed community comparisons)
 
 
 ## Setup
@@ -22,3 +34,7 @@ For each constraint within a community, we analyse the distribution of inter-act
 - Install dependencies
   ```bash
   pip install -r requirements.txt
+  cd process-community-analysis
+- Running the Analysis
+  ```bash
+  python main.py
