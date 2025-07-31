@@ -1,0 +1,309 @@
+community_id,template,activities,normal_support,normal_satisfied,normal_total
+19,<Template.Existence: 1 >,['Request Payment'],1.0,34,34
+19,<Template.Exactly: 3 >,['Request Payment'],1.0,34,34
+19,<Template.Existence: 1 >,['Request For Payment SUBMITTED by EMPLOYEE'],1.0,34,34
+19,<Template.Exactly: 3 >,['Request For Payment SUBMITTED by EMPLOYEE'],1.0,34,34
+19,<Template.Existence: 1 >,['Request For Payment FINAL_APPROVED by SUPERVISOR'],1.0,34,34
+19,<Template.Exactly: 3 >,['Request For Payment FINAL_APPROVED by SUPERVISOR'],1.0,34,34
+19,<Template.Existence: 1 >,['Payment Handled'],1.0,34,34
+19,<Template.Exactly: 3 >,['Payment Handled'],1.0,34,34
+19,<Template.End: 5 >,['Payment Handled'],1.0,34,34
+19,<Template.Existence: 1 >,['Request For Payment APPROVED by ADMINISTRATION'],0.9705882352941176,33,34
+19,<Template.Exactly: 3 >,['Request For Payment APPROVED by ADMINISTRATION'],0.9705882352941176,33,34
+19,<Template.Existence: 1 >,['Permit SUBMITTED by EMPLOYEE'],0.9705882352941176,33,34
+19,<Template.Exactly: 3 >,['Permit SUBMITTED by EMPLOYEE'],0.9705882352941176,33,34
+19,<Template.Init: 4 >,['Permit SUBMITTED by EMPLOYEE'],0.9705882352941176,33,34
+19,<Template.Existence: 1 >,['Permit APPROVED by ADMINISTRATION'],0.9411764705882353,32,34
+19,<Template.Exactly: 3 >,['Permit APPROVED by ADMINISTRATION'],0.9411764705882353,32,34
+19,<Template.Choice: 6 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request Payment', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request Payment', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Response: 9 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Alternate Precedence: 13 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Not Response: 23 >,"['Request Payment', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request Payment', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request Payment', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request Payment', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Response: 9 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Alternate Precedence: 13 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Not Response: 23 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request Payment']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request Payment', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request Payment']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request Payment', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Response: 9 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request Payment']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request Payment']",1.0,34,34
+19,<Template.Chain Response: 11 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request Payment']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request Payment']",1.0,34,34
+19,<Template.Alternate Precedence: 13 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request Payment']",1.0,34,34
+19,<Template.Chain Precedence: 14 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request Payment']",1.0,34,34
+19,<Template.Not Response: 23 >,"['Request Payment', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request Payment', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request Payment', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request Payment', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Choice: 6 >,"['Payment Handled', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Payment Handled']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Payment Handled', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Payment Handled']",1.0,34,34
+19,<Template.Response: 9 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Payment Handled']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Payment Handled']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Payment Handled']",1.0,34,34
+19,<Template.Alternate Precedence: 13 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Payment Handled']",1.0,34,34
+19,<Template.Not Response: 23 >,"['Payment Handled', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Payment Handled', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Payment Handled', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Payment Handled']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Payment Handled', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Payment Handled']",1.0,34,34
+19,<Template.Choice: 6 >,"['Payment Handled', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Payment Handled', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Response: 9 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Alternate Precedence: 13 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Not Response: 23 >,"['Payment Handled', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Payment Handled', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Payment Handled', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Payment Handled', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Choice: 6 >,"['Payment Handled', 'Request Payment']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request Payment', 'Payment Handled']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Payment Handled', 'Request Payment']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request Payment', 'Payment Handled']",1.0,34,34
+19,<Template.Response: 9 >,"['Request Payment', 'Payment Handled']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Request Payment', 'Payment Handled']",1.0,34,34
+19,<Template.Chain Response: 11 >,"['Request Payment', 'Payment Handled']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Request Payment', 'Payment Handled']",1.0,34,34
+19,<Template.Alternate Precedence: 13 >,"['Request Payment', 'Payment Handled']",1.0,34,34
+19,<Template.Chain Precedence: 14 >,"['Request Payment', 'Payment Handled']",1.0,34,34
+19,<Template.Not Response: 23 >,"['Payment Handled', 'Request Payment']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Payment Handled', 'Request Payment']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Payment Handled', 'Request Payment']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Payment Handled', 'Request Payment']",1.0,34,34
+19,<Template.Choice: 6 >,"['Payment Handled', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Payment Handled', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Response: 9 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Payment Handled']",0.9705882352941176,33,34
+19,<Template.Alternate Precedence: 13 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Payment Handled']",0.9705882352941176,33,34
+19,<Template.Not Response: 23 >,"['Payment Handled', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Payment Handled', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Payment Handled', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Payment Handled', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Response: 9 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",0.9705882352941176,33,34
+19,<Template.Alternate Precedence: 13 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",0.9705882352941176,33,34
+19,<Template.Not Response: 23 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Response: 9 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Alternate Response: 10 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Chain Response: 11 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Precedence: 12 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Alternate Precedence: 13 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Chain Precedence: 14 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Response: 23 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request Payment', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request Payment', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Response: 9 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request Payment']",0.9705882352941176,33,34
+19,<Template.Alternate Precedence: 13 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request Payment']",0.9705882352941176,33,34
+19,<Template.Not Response: 23 >,"['Request Payment', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request Payment', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request Payment', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request Payment', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Choice: 6 >,"['Payment Handled', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Permit SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Payment Handled', 'Permit SUBMITTED by EMPLOYEE']",0.9705882352941176,33,34
+19,<Template.Responded Existence: 8 >,"['Permit SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Response: 9 >,"['Permit SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Permit SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Permit SUBMITTED by EMPLOYEE', 'Payment Handled']",0.9705882352941176,33,34
+19,<Template.Alternate Precedence: 13 >,"['Permit SUBMITTED by EMPLOYEE', 'Payment Handled']",0.9705882352941176,33,34
+19,<Template.Not Response: 23 >,"['Payment Handled', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Payment Handled', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Payment Handled', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Permit SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Payment Handled', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Permit SUBMITTED by EMPLOYEE', 'Payment Handled']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit SUBMITTED by EMPLOYEE']",0.9705882352941176,33,34
+19,<Template.Responded Existence: 8 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Response: 9 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",0.9705882352941176,33,34
+19,<Template.Alternate Precedence: 13 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",0.9705882352941176,33,34
+19,<Template.Not Response: 23 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit SUBMITTED by EMPLOYEE']",0.9705882352941176,33,34
+19,<Template.Responded Existence: 8 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Response: 9 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment SUBMITTED by EMPLOYEE']",0.9705882352941176,33,34
+19,<Template.Alternate Precedence: 13 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment SUBMITTED by EMPLOYEE']",0.9705882352941176,33,34
+19,<Template.Not Response: 23 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Permit SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request Payment', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Permit SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request Payment', 'Permit SUBMITTED by EMPLOYEE']",0.9705882352941176,33,34
+19,<Template.Response: 9 >,"['Permit SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Permit SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Permit SUBMITTED by EMPLOYEE', 'Request Payment']",0.9705882352941176,33,34
+19,<Template.Alternate Precedence: 13 >,"['Permit SUBMITTED by EMPLOYEE', 'Request Payment']",0.9705882352941176,33,34
+19,<Template.Not Response: 23 >,"['Request Payment', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request Payment', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Permit SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request Payment', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Permit SUBMITTED by EMPLOYEE', 'Request Payment']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request Payment', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",0.9705882352941176,33,34
+19,<Template.Responded Existence: 8 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Response: 9 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Alternate Response: 10 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Precedence: 12 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Alternate Precedence: 13 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Not Response: 23 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Permit SUBMITTED by EMPLOYEE', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Choice: 6 >,"['Permit APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",0.9705882352941176,33,34
+19,<Template.Choice: 6 >,"['Permit SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Responded Existence: 8 >,"['Permit APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Permit SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Response: 9 >,"['Permit SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Alternate Response: 10 >,"['Permit SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Chain Response: 11 >,"['Permit SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Precedence: 12 >,"['Permit SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Alternate Precedence: 13 >,"['Permit SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Chain Precedence: 14 >,"['Permit SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Response: 23 >,"['Permit APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Permit APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Permit APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Permit APPROVED by ADMINISTRATION', 'Permit SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Choice: 6 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Responded Existence: 8 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Response: 9 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Alternate Precedence: 13 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment APPROVED by ADMINISTRATION']",0.9705882352941176,33,34
+19,<Template.Not Response: 23 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment APPROVED by ADMINISTRATION', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Choice: 6 >,"['Payment Handled', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Choice: 6 >,"['Permit APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Payment Handled', 'Permit APPROVED by ADMINISTRATION']",0.9411764705882353,32,34
+19,<Template.Responded Existence: 8 >,"['Permit APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Response: 9 >,"['Permit APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Permit APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Permit APPROVED by ADMINISTRATION', 'Payment Handled']",0.9411764705882353,32,34
+19,<Template.Alternate Precedence: 13 >,"['Permit APPROVED by ADMINISTRATION', 'Payment Handled']",0.9411764705882353,32,34
+19,<Template.Not Response: 23 >,"['Payment Handled', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Payment Handled', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Payment Handled', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Permit APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Payment Handled', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Permit APPROVED by ADMINISTRATION', 'Payment Handled']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Choice: 6 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit APPROVED by ADMINISTRATION']",0.9411764705882353,32,34
+19,<Template.Responded Existence: 8 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Response: 9 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",0.9411764705882353,32,34
+19,<Template.Alternate Precedence: 13 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",0.9411764705882353,32,34
+19,<Template.Not Response: 23 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment FINAL_APPROVED by SUPERVISOR', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment FINAL_APPROVED by SUPERVISOR']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Choice: 6 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",0.9411764705882353,32,34
+19,<Template.Responded Existence: 8 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Response: 9 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",0.9411764705882353,32,34
+19,<Template.Alternate Precedence: 13 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",0.9411764705882353,32,34
+19,<Template.Not Response: 23 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request For Payment SUBMITTED by EMPLOYEE', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Permit APPROVED by ADMINISTRATION', 'Request For Payment SUBMITTED by EMPLOYEE']",1.0,34,34
+19,<Template.Choice: 6 >,"['Permit APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Choice: 6 >,"['Request Payment', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Permit APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Responded Existence: 8 >,"['Request Payment', 'Permit APPROVED by ADMINISTRATION']",0.9411764705882353,32,34
+19,<Template.Response: 9 >,"['Permit APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Alternate Response: 10 >,"['Permit APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Precedence: 12 >,"['Permit APPROVED by ADMINISTRATION', 'Request Payment']",0.9411764705882353,32,34
+19,<Template.Alternate Precedence: 13 >,"['Permit APPROVED by ADMINISTRATION', 'Request Payment']",0.9411764705882353,32,34
+19,<Template.Not Response: 23 >,"['Request Payment', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Precedence: 24 >,"['Request Payment', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Permit APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Not Chain Response: 25 >,"['Request Payment', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Permit APPROVED by ADMINISTRATION', 'Request Payment']",1.0,34,34
+19,<Template.Not Chain Precedence: 26 >,"['Request Payment', 'Permit APPROVED by ADMINISTRATION']",1.0,34,34
