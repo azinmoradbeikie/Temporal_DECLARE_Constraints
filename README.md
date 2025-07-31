@@ -10,3 +10,11 @@ For each constraint within a community, we analyse the distribution of inter-act
 - **Temporal Analysis**: Analyze duration and time window patterns
 - **Community Comparison**: Compare communities using Wasserstein distance
 - **Visualization**: Generate heatmaps and explanatory visualizations
+
+
+
+
+## Setup
+
+```bash
+pip install -r requirements.txt
