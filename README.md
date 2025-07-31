@@ -25,7 +25,19 @@ The analysis generates several outputs in the results/ directory:
 
 5. community_comparisons/  (Detailed community comparisons)
 
-
+## Configuration
+- **Paths and Parameters**
+  ```bash
+  XES_FILE_PATH =  path to your log.xes
+  COMMUNITY_CSV_PATH = path to community assignments.csv
+  OUTPUT_DIR = path to output directory
+  
+- **DECLARE Miner Settings**
+  ```bash
+  DECLARE_MIN_SUPPORT = 0.7      # Minimum support threshold
+  DECLARE_ITEMSETS_SUPPORT = 0.9 # Itemset support threshold
+  DECLARE_MAX_CARDINALITY = 1    # Maximum constraint cardinality
+  
 ## Setup
 
 - Clone the repository:
