@@ -20,5 +20,5 @@ For each constraint within a community, we analyse the distribution of inter-act
   ```bash
   git clone https://github.com/azinmoradbeikie/Temporal_DECLARE_Constraints.git
 - Install dependencies
-```bash
+  ```bash
   pip install -r requirements.txt
