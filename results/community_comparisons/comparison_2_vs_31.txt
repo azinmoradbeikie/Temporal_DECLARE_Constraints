@@ -1,0 +1,28 @@
+
+=== Comparison between Community 2 and Community 31 ===
+Random 5 differing constraints:
+
+Not Chain Response(Request For Payment SUBMITTED by EMPLOYEE,Request For Payment FINAL_APPROVED by SUPERVISOR) (distance: 0.65):
+  - Meaning: Request For Payment SUBMITTED by EMPLOYEE is NEVER immediately followed by Request For Payment FINAL_APPROVED by SUPERVISOR
+  • Duration between Request For Payment SUBMITTED by EMPLOYEE and Request For Payment FINAL_APPROVED by SUPERVISOR: 49.9h vs 294.1h (Community 2 is shorter)
+  - Behavioral note: Constraint is moderately different in Community 2 vs Community 31
+
+Precedence(Request For Payment SUBMITTED by EMPLOYEE,Request For Payment FINAL_APPROVED by SUPERVISOR) (distance: 0.65):
+  - Meaning: Request For Payment FINAL_APPROVED by SUPERVISOR can ONLY happen if Request For Payment SUBMITTED by EMPLOYEE occurred before
+  • Duration between Request For Payment SUBMITTED by EMPLOYEE and Request For Payment FINAL_APPROVED by SUPERVISOR: 49.9h vs 294.1h (Community 2 is shorter)
+  - Behavioral note: Constraint is moderately different in Community 2 vs Community 31
+
+Responded Existence(Request For Payment FINAL_APPROVED by SUPERVISOR,Payment Handled) (distance: 0.30):
+  - Meaning: If Request For Payment FINAL_APPROVED by SUPERVISOR occurs, then Payment Handled MUST occur at least once afterward
+  • Duration between Request For Payment FINAL_APPROVED by SUPERVISOR and Payment Handled: 100.1h vs 214.2h (Community 2 is shorter)
+  - Behavioral note: Constraint is moderately different in Community 2 vs Community 31
+
+Response(Request Payment,Payment Handled) (distance: 0.07):
+  - Meaning: After activity Request Payment, Payment Handled MUST eventually occur
+  • Duration between Request Payment and Payment Handled: 59.3h vs 86.3h (Community 2 is shorter)
+  - Behavioral note: Constraint is moderately different in Community 2 vs Community 31
+
+Alternate Precedence(Request Payment,Payment Handled) (distance: 0.07):
+  - Meaning: Every Payment Handled must be directly preceded by Request Payment, with no other Payment Handled in between
+  • Duration between Request Payment and Payment Handled: 59.3h vs 86.3h (Community 2 is shorter)
+  - Behavioral note: Constraint is moderately different in Community 2 vs Community 31
