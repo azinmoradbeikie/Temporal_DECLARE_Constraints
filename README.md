@@ -46,7 +46,7 @@ The analysis generates several outputs in the results/ directory:
 - Install dependencies
   ```bash
   pip install -r requirements.txt
-  cd process-community-analysis
+  cd Temporal_DECLARE_Constraints
 - Running the Analysis
   ```bash
   python main.py
